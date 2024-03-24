@@ -12,6 +12,6 @@ export default defineConfig({
     skipInline: false,
     drafts: true,
   },
-   site: 'https://kuem-si-vnext.github.io',
+   site: 'https://new.kuem.si',
   integrations: [tailwind(),    sitemap(), mdx()]
 });

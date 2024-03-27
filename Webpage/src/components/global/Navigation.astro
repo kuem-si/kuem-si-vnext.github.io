@@ -127,7 +127,7 @@ const translatePath = useTranslatedPath(lang);
         :class="{'flex': open, 'hidden': !open}"
         class="flex-col items-center flex-grow hidden text-sm font-normal text-white md:pb-0 md:flex md:justify-end md:flex-row"
       >
-        <div
+      <div
           @click.away="open = false"
           class="relative"
           x-data="{ open: false }"
@@ -232,17 +232,17 @@ const translatePath = useTranslatedPath(lang);
           >
             <div class="py-1 bg-vulcan-900 rounded-xl" role="none">
               <a
-                href={translatePath('/system/overview')}
+                href="/components/typography"
                 title="link to  page"
                 aria-label="your label"
                 role="menuitem"
                 tabindex="-1"
                 class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
               >
-                Typography
+                Typog raphy
               </a>
               <a
-                href={translatePath('/system/overview')}
+                href="/components/colors"
                 title="link to  page"
                 aria-label="your label"
                 role="menuitem"
@@ -254,26 +254,18 @@ const translatePath = useTranslatedPath(lang);
           </div>
         </div>
         <a
-          href={translatePath('/system/overview')}
+          href="/system/overview"
           title="link to  page"
           aria-label="your label"
-          class="px-2 py-2 lg:px-6 md:px-3 hover:text-white/50"
+          class="px-2 py-2 lg:px-6 md:px-3 hover:text-white/50 "
           >{t('nav.about')}</a
         >
         <a
-          href={translatePath('/system/overview')}
+          href="/components/overview"
           title="link to  page"
           aria-label="your label"
           class="px-2 py-2 lg:px-6 md:px-3 hover:text-white/50">{t('nav.contact')}</a
         >
-        <!-- <a
-          href="https://lexingtonthemes.lemonsqueezy.com/checkout/buy/cad98266-24b3-47fd-99a6-e65ad9af37f6"
-          title="link to  page"
-          aria-label="your label"
-          class="rounded-lg px-4 py-2 text-sm h-8 transition-all flex items-center justify-center text-white bg-gradient-to-b from-white/[.105] to-white/[.15] hover:to-white/[.25] ring-1 ring-inset ring-white/20"
-        >
-          Buy Navy &nbsp; &rarr;
-        </a> -->
       </nav>
     </div>
   </div>

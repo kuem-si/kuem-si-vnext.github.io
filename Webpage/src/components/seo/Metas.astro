@@ -7,7 +7,7 @@ let subtitle = "";
     Standard meta
  -->
 <meta charset="UTF-8" />
-<meta name="author" content="Yout name" />
+<meta name="author" content={title} />
 <meta name="theme-color" content="#151723" />
 <meta name="viewport" content="width=device-width" />
 <meta name="msapplication-TileColor" content="#151723" />
@@ -23,7 +23,7 @@ let subtitle = "";
 <!---------------------
     open graph standard
 --------------------->
-<meta property="og:title" content={`${title}`} /><!-- <meta property="og:title" content={`${title} - ${subtitle}`} /> -->
+<meta property="og:title" content={`${title} - ${subtitle}`} />
 <meta property="og:description" content={description} />
 <meta property="og:type" content="website" />
 <meta property="og:url" content={url} />
@@ -45,4 +45,4 @@ let subtitle = "";
   name="twitter:image"
   content={Astro.site ? `${Astro.site}${twitterImage}` : twitterImage}
 />
-<title>{title} - {subtitle}</title>
+<title>{title}</title><!-- <title>{title} - {subtitle}</title> -->

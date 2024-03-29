@@ -1,5 +1,8 @@
 ---
 import Blurgradientleft from "../assets/Blurgradientleft.astro";
+import { getLangFromUrl, useTranslations, useTranslatedPath, getRouteFromUrl } from '../../i18n/utils';
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <footer class="relative border-t bg-vulcan-900 border-white/5">
@@ -23,17 +26,18 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
               class="ccustom"
               fill="#ffffff"></path>
           </svg>
-          <p class="uppercase">Navy</p>
+          <p class="uppercase">{t('kuem')}</p>
         </div>
         <p class="mt-2 text-sm text-vulcan-300">
           <span class="mt-6 text-sm font-normal text-vulcan-300">
-            © 2023 Lexington Themes. <br /> All rights reserved
+            <script>document.getElementById('footer-copyright-year').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+            © <span id="footer-copyright-year"></span> {t('kuemdoo')} <br /> {t('footer:allrightsreserved')}
           </span>
         </p>
       </div>
       <div class="grid grid-cols-2 gap-8 xl:col-span-3">
         <div class="md:grid md:grid-cols-2 md:gap-8">
-          <div>
+          <!-- <div>
             <h3 class="text-white">Navigation</h3>
             <ul role="list" class="mt-4 space-y-2">
               <li>
@@ -70,8 +74,8 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
                 </a>
               </li>
             </ul>
-          </div>
-          <div class="mt-12 md:mt-0">
+          </div> -->
+          <!-- <div class="mt-12 md:mt-0">
             <h3 class="text-white">More themes</h3>
             <ul role="list" class="mt-4 space-y-2">
               <li>
@@ -85,12 +89,12 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
                 </a>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
         <div class="md:grid md:grid-cols-2 md:gap-8">
           <div>
-            <h3 class="text-white">Stay updated</h3>
-            <ul role="list" class="mt-4 space-y-2">
+            <h3 class="text-white">&nbsp;</h3>
+            <!-- <ul role="list" class="mt-4 space-y-2">
               <li>
                 <a
                   href="https://www.lexingtonthemes.com/legal/license"
@@ -111,22 +115,22 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
                   Documentation
                 </a>
               </li>
-            </ul>
+            </ul> -->
           </div>
           <div class="mt-12 md:mt-0">
-            <h3 class="text-white">Socials &amp; studio</h3>
+            <h3 class="text-white">{t('footer:socialnetworks')}</h3>
             <ul role="list" class="mt-4 space-y-2">
               <li>
                 <a
-                  href="https://twitter.com/lexingtonthemes"
+                  href="https://www.linkedin.com/company/kuemsi"
                   title="link to  page"
                   aria-label="your label"
                   class="text-sm text-vulcan-300 hover:text-white"
                 >
-                  @lexingtonthemes
+                  {t('kuem')}
                 </a>
               </li>
-              <li>
+              <!-- <li>
                 <a
                   href="https://twitter.com/Mike_Andreuzza"
                   title="link to  page"
@@ -135,8 +139,8 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
                 >
                   @Mike_Andreuzza
                 </a>
-              </li>
-              <li>
+              </li> -->
+              <!-- <li>
                 <a
                   href="https://monomod.studio"
                   title="link to  page"
@@ -145,7 +149,7 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
                 >
                   Monomod Studio
                 </a>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -154,7 +158,7 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
   </div>
 </footer>
 
-<footer class="bg-vulcan-900">
+<!-- <footer class="bg-vulcan-900">
   <div class="relative px-8 pb-24 mx-auto max-w-7xl md:px-12 lg:px-32">
     <div
       class="pt-12 border-t lg:flex lg:items-center lg:justify-between border-white/5"
@@ -188,4 +192,4 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
       </form>
     </div>
   </div>
-</footer>
+</footer> -->

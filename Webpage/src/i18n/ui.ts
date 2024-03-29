@@ -1,6 +1,6 @@
 export const languages = {
-    en: 'Eng',
-    sl: 'Slo',
+    en: 'EN',
+    sl: 'SL',
   };
   
   export const defaultLang = 'sl';
@@ -28,8 +28,14 @@ export const languages = {
       'nav.softwaredevelopment': 'Software Development',
       'nav.softwarearhitectureandconsulting': 'Software Arhitecture and Consulting',
       'nav.devopsandplatformengineering': 'DevOps and Platform Engineering',
+
+      'footer:allrightsreserved': 'All rights reserved',
+      'footer:socialnetworks': 'Social Networks',
     },
     sl: {
+      'kuem': 'Kuem',
+      'kuemdoo': 'Kuem d.o.o.',
+
       'nav.contact': 'Kontakt',
       'nav.solutions': 'Rešitve',
       'nav.services': 'Dodatne storitve',
@@ -37,6 +43,9 @@ export const languages = {
       'nav.softwaredevelopment': 'Razvoj programske opreme',
       'nav.softwarearhitectureandconsulting': 'Arhitektura programske opreme in svetovanje',
       'nav.devopsandplatformengineering': 'DevOps in Platform Engineering',
+
+      'footer:allrightsreserved': 'Vse pravice pridržane',
+      'footer:socialnetworks': 'Socialna omrežja',
 
       'nexavia': 'Nexavia',
       'thynkr': 'Thynkr',

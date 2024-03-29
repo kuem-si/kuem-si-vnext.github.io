@@ -2,18 +2,23 @@
 import "../styles/global.css";
 import Metas from "./seo/Metas.astro";
 import Favicons from "./seo/Favicons.astro";
+import { getLangFromUrl, useTranslations, useTranslatedPath, getRouteFromUrl } from '../i18n/utils';
+import { languages } from '../i18n/ui';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 //
 //
 // Use SEO Metatags like this globally or on different pages
 //
 //
 const {
-  title = "Kuem d.o.o.",
+  title = t('kuemdoo'),
   description = "#",
   url,
   socialImage = "/path/to/OpenGraph-Image",
   twitterImage = "/path/to/OpenGraph-TwitterImage",
-  author = "Kuem d.o.o.",
+  author = t('kuemdoo'),
 } = Astro.props;
 const sanitizedTitle = title.toLowerCase().replaceAll(" ", "-");
 ---

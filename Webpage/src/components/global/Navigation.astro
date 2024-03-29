@@ -1,10 +1,12 @@
 ---
-import { getLangFromUrl, useTranslations, useTranslatedPath } from '../../i18n/utils';
+import { getLangFromUrl, useTranslations, useTranslatedPath, getRouteFromUrl } from '../../i18n/utils';
 import { languages } from '../../i18n/ui';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
+
+const route = getRouteFromUrl(Astro.url);
 ---
 <section
   class="fixed z-50 w-full border-b relatve bg-vulcan-900/20 border-white/5 backdrop-blur-2xl lg:bg-vulcan-900/0"
@@ -89,7 +91,7 @@ const translatePath = useTranslatedPath(lang);
                   role="menuitem"
                   tabindex="-1"
                   id="menu-item-0"
-                  ><a href={translatePath('/', lang)}>{label}</a>
+                  ><a href={translatePath(`/${route ? route : ''}`, lang)}>{label}</a>
                 </button>
               ))}
             </div>
@@ -169,23 +171,23 @@ const translatePath = useTranslatedPath(lang);
           >
             <div class="py-1 bg-vulcan-900 rounded-xl" role="none">
               <a
-                href="/components/typography"
+                href={translatePath('/resitve/nexavia', lang)}
                 title="link to  page"
                 aria-label="your label"
                 role="menuitem"
                 tabindex="-1"
                 class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
               >
-                Typography
+                {t('nexavia')}
               </a>
               <a
-                href="/components/colors"
+                href={translatePath('/resitve/thynkr', lang)}
                 title="link to  page"
                 aria-label="your label"
                 role="menuitem"
                 tabindex="-1"
                 class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                >Colors</a
+                >{t('thynkr')}</a
               >
             </div>
           </div>
@@ -232,36 +234,45 @@ const translatePath = useTranslatedPath(lang);
           >
             <div class="py-1 bg-vulcan-900 rounded-xl" role="none">
               <a
-                href="/components/typography"
+                href={translatePath('/storitve/razvoj-programske-opreme', lang)}
                 title="link to  page"
                 aria-label="your label"
                 role="menuitem"
                 tabindex="-1"
                 class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
               >
-                Typog raphy
+                {t('nav.softwaredevelopment')}
               </a>
               <a
-                href="/components/colors"
+                href={translatePath('/storitve/arhitektura-programske-opreme-in-svetovanje', lang)}
                 title="link to  page"
                 aria-label="your label"
                 role="menuitem"
                 tabindex="-1"
                 class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                >Colors</a
+                >{t('nav.softwarearhitectureandconsulting')}</a
+              >
+              <a
+                href={translatePath('storitve/devops-in-platform-engineering', lang)}
+                title="link to  page"
+                aria-label="your label"
+                role="menuitem"
+                tabindex="-1"
+                class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
+                >{t('nav.devopsandplatformengineering')}</a
               >
             </div>
           </div>
         </div>
         <a
-          href="/system/overview"
+          href={translatePath('o-nas', lang)}
           title="link to  page"
           aria-label="your label"
           class="px-2 py-2 lg:px-6 md:px-3 hover:text-white/50 "
           >{t('nav.about')}</a
         >
         <a
-          href="/components/overview"
+          href={translatePath('kontakt', lang)}
           title="link to  page"
           aria-label="your label"
           class="px-2 py-2 lg:px-6 md:px-3 hover:text-white/50">{t('nav.contact')}</a

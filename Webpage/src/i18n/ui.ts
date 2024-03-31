@@ -31,7 +31,7 @@ export const languages = {
       'nav.softwarearhitectureandconsulting': 'Software Arhitecture and Consulting',
       'nav.devopsandplatformengineering': 'DevOps and Platform Engineering',
 
-      'landingpage:maincompanytitle': 'KUEM solutions and services',
+      'landingpage:maincompanytitle': 'Solutions and services',
       'landingpage:maincompanytitledescription': 'Tailored software solutions and consulting services designed to meet the most demanding challenges.',
       'landingpage:maincompanytitledescriptioninformation': 'KUEM brings together experts with extensive experience in various complex software solutions.',
       'landingpage:trustedby': 'Trusted by',
@@ -64,8 +64,8 @@ export const languages = {
       'nav.softwarearhitectureandconsulting': 'Arhitektura programske opreme in svetovanje',
       'nav.devopsandplatformengineering': 'DevOps in Platform Engineering',
 
-      'landingpage:maincompanytitle': 'KUEM rešitve in storitve',
-      'landingpage:maincompanytitledescription': 'Dovršene programske rešitve in svetovanja primerna za najzahtevnajše izzive.',
+      'landingpage:maincompanytitle': 'Rešitve in storitve',
+      'landingpage:maincompanytitledescription': 'Dovršene programske rešitve in svetovanja primerna za najzahtevnejše izzive.',
       'landingpage:maincompanytitledescriptioninformation': 'KUEM združuje strokovnjake z bogatimi izkušnjami na področju najrazličnejših kompleksnih programskih rešitev.',
       'landingpage:trustedby': 'Zaupajo nam',
       'landingpage:solutionsandservicesoffer': 'Ponudba rešitev in storitev',

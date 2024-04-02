@@ -129,6 +129,13 @@ const route = getRouteFromUrl(Astro.url);
         :class="{'flex': open, 'hidden': !open}"
         class="flex-col items-center flex-grow hidden text-sm font-normal text-white md:pb-0 md:flex md:justify-end md:flex-row"
       >
+      <a
+          href={translatePath('/', lang)}
+          title="link to  page"
+          aria-label="your label"
+          class="px-2 py-2 lg:px-6 md:px-3 hover:text-white/50 "
+          >{t('nav.home')}</a
+        >
       <div
           @click.away="open = false"
           class="relative"

@@ -36,6 +36,7 @@ export const languages = {
       'nav.softwaredevelopment': 'Software Development',
       'nav.softwarearhitectureandconsulting': 'Software Arhitecture and Consulting',
       'nav.devopsandplatformengineering': 'DevOps and Platform Engineering',
+      'nav.home': 'Home',
 
       'landingpage:maincompanytitle': 'Solutions and services',
       'landingpage:maincompanytitledescription': 'Tailored software solutions and consulting services designed to meet the most demanding challenges.',
@@ -59,6 +60,7 @@ export const languages = {
       'kuem': 'Kuem',
       'kuemdoo': 'Kuem d.o.o.',
       'linkedin': 'LinkedIn',
+      'github': 'GitHub',
 
       'global:moreinfo': 'Več informacij',
       'global:support': 'Podpora',
@@ -75,6 +77,7 @@ export const languages = {
       'nav.softwaredevelopment': 'Razvoj programske opreme',
       'nav.softwarearhitectureandconsulting': 'Arhitektura programske opreme in svetovanje',
       'nav.devopsandplatformengineering': 'DevOps in Platform Engineering',
+      'nav.home': 'Domov',
 
       'landingpage:maincompanytitle': 'Rešitve in storitve',
       'landingpage:maincompanytitledescription': 'Dovršene programske rešitve in svetovanja primerna za najzahtevnejše izzive.',

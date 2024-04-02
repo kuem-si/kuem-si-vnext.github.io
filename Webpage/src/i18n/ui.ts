@@ -22,6 +22,10 @@ export const languages = {
   export const ui = {
     en: {
       'global:moreinfo': 'More info',
+      'global:support': 'Support',
+      'global:helpdesk': 'Helpdesk',
+      'global:company': 'Company',
+      'global:legal': 'Legal',
 
       'nav.contact': 'Contact',
       'nav.solutions': 'Solutions',
@@ -55,6 +59,10 @@ export const languages = {
       'linkedin': 'LinkedIn',
 
       'global:moreinfo': 'Več informacij',
+      'global:support': 'Podpora',
+      'global:helpdesk': 'Helpdesk',
+      'global:company': 'Podjetje',
+      'global:legal': 'Pravno',
 
       'nav.contact': 'Kontakt',
       'nav.solutions': 'Rešitve',

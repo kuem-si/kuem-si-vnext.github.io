@@ -37,85 +37,73 @@ const t = useTranslations(lang);
       </div>
       <div class="grid grid-cols-2 gap-8 xl:col-span-3">
         <div class="md:grid md:grid-cols-2 md:gap-8">
-          <!-- <div>
-            <h3 class="text-white">Navigation</h3>
+          <div>
+            <h3 class="text-white">{t('nav.contact')}</h3>
             <ul role="list" class="mt-4 space-y-2">
               <li>
                 <a
-                  href="/system/overview"
+                  href="mailto:info@kuem.si"
                   title="link to  page"
                   aria-label="your label"
                   class="inline-flex items-center text-sm text-vulcan-300 hover:text-white"
-                  >Overview <span
-                    class="items-center inline-flex font-medium text-indigo-400 bg-vulcan-800 ml-4 px-3 py-0.5 rounded-full text-xs"
-                    >60+ Pages</span
-                  ></a
+                  ><span
+                  class="items-center inline-flex font-medium text-indigo-400 bg-vulcan-800 px-3 py-0.5 rounded-full text-xs"
+                  >E: </span>&nbsp;info@kuem.si</a
                 >
               </li>
 
               <li>
-                <a
-                  href="/components/overview"
-                  title="link to  page"
-                  aria-label="your label"
-                  class="text-sm text-vulcan-300 hover:text-white"
-                >
-                  Components
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/system/styleguide"
-                  title="link to  page"
-                  aria-label="your label"
-                  class="text-sm text-vulcan-300 hover:text-white"
-                >
-                  Style Guide
-                </a>
+                <span
+                  class="items-center inline-flex font-medium text-indigo-400 bg-vulcan-800 px-3 py-0.5 rounded-full text-xs"
+                  >T: </span>
+                <span class="text-sm text-vulcan-300 hover:text-white">+386 5 763 11 18</span>
               </li>
             </ul>
-          </div> -->
-          <!-- <div class="mt-12 md:mt-0">
-            <h3 class="text-white">More themes</h3>
+          </div>
+          <div class="mt-12 md:mt-0">
+            <h3 class="text-white">{t('global:support')}</h3>
             <ul role="list" class="mt-4 space-y-2">
               <li>
-                <a
-                  href="https://www.lexingtonthemes.com"
+                <!-- <a
+                  href="https://helpdesk.kuem.si"
                   title="link to  page"
                   aria-label="your label"
                   class="text-sm text-vulcan-300 hover:text-white"
                 >
-                  Lexington Themes
-                </a>
+                  {t('global:helpdesk')}
+                </a> -->
+                <span class="text-sm text-vulcan-300 hover:text-white">{t('global:helpdesk')}</span>
               </li>
             </ul>
-          </div> -->
+          </div>
         </div>
         <div class="md:grid md:grid-cols-2 md:gap-8">
           <div>
-            <h3 class="text-white">&nbsp;</h3>
-            <!-- <ul role="list" class="mt-4 space-y-2">
+            <h3 class="text-white">{t('global:company')}</h3>
+            <ul role="list" class="mt-4 space-y-2">
               <li>
-                <a
-                  href="https://www.lexingtonthemes.com/legal/license"
+                <!-- <a
+                  href="https://helpdesk.kuem.si"
                   title="link to  page"
                   aria-label="your label"
                   class="text-sm text-vulcan-300 hover:text-white"
                 >
-                  License
-                </a>
+                  {t('global:legal')}
+                </a> -->
+                <span class="text-sm text-vulcan-300 hover:text-white">{t('global:legal')}</span>
               </li>
               <li>
-                <a
-                  href="https://lexingtonthemes.com/documentation/quick-start/"
+                <!-- <a
+                  href="https://helpdesk.kuem.si"
                   title="link to  page"
                   aria-label="your label"
                   class="text-sm text-vulcan-300 hover:text-white"
                 >
-                  Documentation
-                </a>
+                  {t('global:legal')}
+                </a> -->
+                <span class="text-sm text-vulcan-300 hover:text-white">&nbsp;</span>
               </li>
-            </ul> -->
+            </ul>
           </div>
           <div class="mt-12 md:mt-0">
             <h3 class="text-white">{t('footer:socialnetworks')}</h3>
@@ -130,26 +118,6 @@ const t = useTranslations(lang);
                   {t('linkedin')}
                 </a>
               </li>
-              <!-- <li>
-                <a
-                  href="https://twitter.com/Mike_Andreuzza"
-                  title="link to  page"
-                  aria-label="your label"
-                  class="text-sm text-vulcan-300 hover:text-white"
-                >
-                  @Mike_Andreuzza
-                </a>
-              </li> -->
-              <!-- <li>
-                <a
-                  href="https://monomod.studio"
-                  title="link to  page"
-                  aria-label="your label"
-                  class="text-sm text-vulcan-300 hover:text-white"
-                >
-                  Monomod Studio
-                </a>
-              </li> -->
             </ul>
           </div>
         </div>

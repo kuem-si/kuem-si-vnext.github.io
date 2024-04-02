@@ -26,6 +26,8 @@ export const languages = {
       'global:helpdesk': 'Helpdesk',
       'global:company': 'Company',
       'global:legal': 'Legal',
+      'global:basicdata': 'Basic data',
+      'global.slovenia': 'Slovenia',
 
       'nav.contact': 'Contact',
       'nav.solutions': 'Solutions',
@@ -63,6 +65,8 @@ export const languages = {
       'global:helpdesk': 'Helpdesk',
       'global:company': 'Podjetje',
       'global:legal': 'Pravno',
+      'global:basicdata': 'Osnovni podatki',
+      'global.slovenia': 'Slovenija',
 
       'nav.contact': 'Kontakt',
       'nav.solutions': 'Rešitve',

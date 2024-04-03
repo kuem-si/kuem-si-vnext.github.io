@@ -9,17 +9,38 @@ const translatePath = useTranslatedPath(lang);
 const route = getRouteFromUrl(Astro.url);
 
 const logos = [
+  // {
+  //   image: "/logos/basecamp.svg",
+  // },
+  // {
+  //   image: "/logos/contentfull.svg",
+  // },
+  // {
+  //   image: "/logos/notion.svg",
+  // },
+  // {
+  //   image: "/logos/dribbble.svg",
+  // },
   {
-    image: "/logos/basecamp.svg",
+    image: "/logos/sparkasse.webp",
   },
   {
-    image: "/logos/contentfull.svg",
+    image: "/logos/telekom-slovenije.webp",
   },
   {
-    image: "/logos/notion.svg",
+    image: "/logos/domplan.png",
   },
   {
-    image: "/logos/dribbble.svg",
+    image: "/logos/cmc-group.png",
+  },
+  {
+    image: "/logos/kolektor.png",
+  },
+  {
+    image: "/logos/tele-group.svg",
+  },
+  {
+    image: "/logos/senzemo.svg",
   },
 ];
 ---
@@ -37,11 +58,11 @@ const logos = [
         </span>
       </div>
       <div class="mt-12">
-        <div class="grid grid-cols-2 gap-0.5 sm:grid-cols-3 lg:grid-cols-4">
+        <div class="grid grid-cols-2 gap-y-9 sm:grid-cols-3 lg:grid-cols-4">
           {
             logos.map((logos) => (
-              <div class="flex px-8">
-                <img class="max-h-12" src={logos.image} alt=" logo" />
+            <div class="flex justify-center">
+                <img class="max-h-12" src={logos.image} alt=" logo" style="height:48px" />
               </div>
             ))
           }

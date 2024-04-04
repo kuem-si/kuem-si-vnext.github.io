@@ -53,6 +53,14 @@ export const languages = {
       'landingpage:solutionsandservicesofferdevopsandplatformengineering': 'DevOps & Platform Engineering',
       'landingpage:solutionsandservicesofferdevopsandplatformengineeringdescription': 'We assist you in establishing the entire modern container-based execution environment with all configuration and applications.',
 
+      'aboutpage:aboutus': 'About Us',
+      'aboutpage:slogan': 'Precisely-crafted solutions from engineers with passion',
+      'aboutpage:paragraphone': 'We are a team of software engineers with extensive experience in leading and collaborating on challenging projects across various industries, including telecommunications companies, banks, insurance firms, manufacturing information systems, smart cities, and many others.',
+      'aboutpage:paragraphtwo': 'Our specialization focuses on developing highly scalable and robust solutions and integrating them with other systems.',
+      'aboutpage:paragraphthree': 'With our extensive knowledge accumulated over the years, we assist our clients in achieving high-quality and modern software solutions, enabling them to remain competitive in the global market.',
+      'aboutpage:teams': 'Teams',
+      'aboutpage:ourteam': 'Our Team',
+
       'footer:allrightsreserved': 'All rights reserved',
       'footer:socialnetworks': 'Social Networks',
     },
@@ -93,6 +101,14 @@ export const languages = {
       'landingpage:solutionsandservicesoffersoftwarearhitectureandconsultingdescription': 'Dobro zasnovana programska rešitev pomeni manj težav s skalabilnostjo v prihodnosti.',
       'landingpage:solutionsandservicesofferdevopsandplatformengineering': 'DevOps & Platform Engineering',
       'landingpage:solutionsandservicesofferdevopsandplatformengineeringdescription': 'Pomagamo vam vzpostaviti celotno moderno kontejnersko izvajalno okolje z vso potrebno konfiguracijo in aplikacijami.',
+
+      'aboutpage:aboutus': 'O nas',
+      'aboutpage:slogan': 'Natančno oblikovane rešitve izpod rok inženirjev s strastjo',
+      'aboutpage:paragraphone': 'Smo strokovna skupina inženirjev programske opreme z obsežnimi izkušnjami pri vodenju in sodelovanju na zahtevnih projektih v različnih panogah, vključno s telekomunikacijskimi podjetji, bančnimi ustanovami, zavarovalnicami, proizvodnimi informacijskimi sistemi, pametnimi mesti in številnimi drugimi.',
+      'aboutpage:paragraphtwo': 'Naša specializacija se osredotoča na razvoj visoko skalabilnih in robustnih rešitev ter njihovo integracijo z drugimi sistemi.',
+      'aboutpage:paragraphthree': 'Z našim obsežnim znanjem, pridobljenim skozi leta, pomagamo našim strankam doseči kvalitetne in sodobne programske rešitve, ki jim omogočajo konkurenčnost na globalnem trgu.',
+      'aboutpage:teams': 'Ekipe',
+      'aboutpage:ourteam': 'V ekipi smo',
 
       'footer:allrightsreserved': 'Vse pravice pridržane',
       'footer:socialnetworks': 'Socialna omrežja',
